@@ -19,8 +19,8 @@ include = [
   #"build.rs",
 ]
 
-[lib]
-crate-type = ["lib", "staticlib", "cdylib"]
+#[lib]
+#crate-type = ["lib", "staticlib", "cdylib"]
 
 [dependencies]
 bytes = "1"
